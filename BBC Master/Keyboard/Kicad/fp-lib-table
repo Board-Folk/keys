@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BBC_Master_Keyboard")(type "KiCad")(uri "${KIPRJMOD}/BBC_Master_Keyboard.pretty")(options "")(descr ""))
+)
