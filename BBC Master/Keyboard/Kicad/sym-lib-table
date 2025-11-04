@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Master-Keyboard")(type "KiCad")(uri "${KIPRJMOD}/Master-Keyboard.kicad_sym")(options "")(descr ""))
+)
