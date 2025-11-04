@@ -1,6 +1,6 @@
 # BBC Master 128K (Full Size) Cherry MX Keyboard
 
-![Image of BBC Master 128K (Full Size) Cherry MX Keyboard bare board in black without switches and keycaps fitted](https://github.com/Board-Folk/keys/blob/main/linkhere)
+![Image of BBC Master 128K (Full Size) Cherry MX Keyboard bare board in black without switches and keycaps fitted](https://github.com/Board-Folk/keys/blob/main/BBC%20Master/Keyboard/images/BBCMasterMXKeyboard_Black_BoardOnly.png)
 
 A Cherry MX switch compatible keyboard for the full size BBC Master (not Compact).
 
@@ -14,4 +14,4 @@ A Cherry MX switch compatible keyboard for the full size BBC Master (not Compact
 
 * Keys here from a set from AliExpress, some of which need relabelling
 
-![Image of BBC Master 128K (Full Size) Cherry MX Keyboard in black in case with AliExpress Keycaps Fitted](https://github.com/Board-Folk/keys/blob/main/linkhere)
+![Image of BBC Master 128K (Full Size) Cherry MX Keyboard in black in case with AliExpress Keycaps Fitted](https://github.com/Board-Folk/keys/blob/main/BBC%20Master/Keyboard/images/BBCMasterMXKeyboard_Fitted_AEKeys.png)
