@@ -6,7 +6,7 @@ A Cherry MX switch compatible keyboard for the full size BBC Master (not Compact
 
 ## Notes
 
-* The board fits well, though does need some support top right. Screwholes were been added to attach a bracket of your fashion.
+* The board fits well, though does need some support top right. Screwholes were added to attach a bracket of your fashion.
 * Designed for a single 7U space bar with 3 switches instead of a stabliser, due to shortage of sensible ways of mounting that. Please fork and make suggestions.
 * Stack nylon washers under the LEDs for stability
 
