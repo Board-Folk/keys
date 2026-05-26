@@ -1,0 +1,10268 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "20a823da-908c-44ca-8762-5f349ba9a462")
+	(paper "A4")
+	(title_block
+		(title "Atom Issue 4 Keyboard Replacement PCB")
+		(date "2023-02-25")
+		(rev "01")
+		(company "Ken Lowe")
+		(comment 1 "Rev 01: Initial Release")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_02x13_Odd_Even"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x13_Odd_Even"
+				(at 1.27 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x13, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x13_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 16.51)
+					(end 3.81 -16.51)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 15.367)
+					(end 0 15.113)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 12.827)
+					(end 0 12.573)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 10.287)
+					(end 0 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -12.573)
+					(end 0 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -15.113)
+					(end 0 -15.367)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 15.367)
+					(end 2.54 15.113)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 12.827)
+					(end 2.54 12.573)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 10.287)
+					(end 2.54 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 7.747)
+					(end 2.54 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 5.207)
+					(end 2.54 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -7.493)
+					(end 2.54 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -10.033)
+					(end 2.54 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -12.573)
+					(end 2.54 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -15.113)
+					(end 2.54 -15.367)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 15.24 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 12.7 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -15.24 0)
+					(length 3.81)
+					(name "Pin_25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 15.24 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 12.7 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 3.81)
+					(name "Pin_20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -10.16 180)
+					(length 3.81)
+					(name "Pin_22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -12.7 180)
+					(length 3.81)
+					(name "Pin_24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -15.24 180)
+					(length 3.81)
+					(name "Pin_26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPST"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPST_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 134.62 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03cde164-a00b-4292-b365-02bb8794ddbd")
+	)
+	(junction
+		(at 116.84 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0495f583-0d3e-443d-ac2c-a24302f79f33")
+	)
+	(junction
+		(at 116.84 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0554a678-d622-4793-bf83-c96e1dd5bd40")
+	)
+	(junction
+		(at 83.82 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06428221-f093-4e0b-947c-e5cb22ee0d1e")
+	)
+	(junction
+		(at 134.62 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "074bf26b-76d5-4cef-b5d3-32095d266659")
+	)
+	(junction
+		(at 129.54 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e399fb5-840b-427e-a876-1925730d3139")
+	)
+	(junction
+		(at 83.82 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12c648bc-b9eb-4068-833d-2b87c4079920")
+	)
+	(junction
+		(at 116.84 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1365808f-552f-4fb6-a834-df4d2fbe41e0")
+	)
+	(junction
+		(at 99.06 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ad4f3f8-a604-41ae-a424-5a588153048e")
+	)
+	(junction
+		(at 83.82 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e5dfca0-0d73-4d11-b541-43b522d16ff3")
+	)
+	(junction
+		(at 162.56 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fe930da-ecd7-458d-bcbb-393803cdc26d")
+	)
+	(junction
+		(at 71.12 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20d492cd-3a02-46d4-bd88-7b31fd125a00")
+	)
+	(junction
+		(at 147.32 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "226b41a0-ba02-4951-8ca3-524dc2b11149")
+	)
+	(junction
+		(at 101.6 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22c0c464-ad24-47fe-a29d-57cf94005c04")
+	)
+	(junction
+		(at 71.12 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27bb801b-8066-4d48-b586-4e0dd5694692")
+	)
+	(junction
+		(at 71.12 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28b9652a-a5f7-4afa-86e7-e0fb8db4ce43")
+	)
+	(junction
+		(at 147.32 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a27b0d3-8417-4faa-9a22-24819f99c940")
+	)
+	(junction
+		(at 129.54 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ae6b720-6057-440f-bd93-c465b4d20ae4")
+	)
+	(junction
+		(at 114.3 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e17ee5d-6ed4-4e60-acde-b846ce670c40")
+	)
+	(junction
+		(at 83.82 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fc7076b-4b6e-4975-b867-4a82bca41e1d")
+	)
+	(junction
+		(at 116.84 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32138628-6989-44a5-8cb5-cbdd164f2714")
+	)
+	(junction
+		(at 162.56 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33f0c0e8-6d3b-4e85-bcaf-fa8e22e83a73")
+	)
+	(junction
+		(at 162.56 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34a9fa05-a3d0-4269-80cc-85b1e9253e6f")
+	)
+	(junction
+		(at 162.56 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35fe63c4-55c3-4c03-8561-d13e1fbd4ee6")
+	)
+	(junction
+		(at 129.54 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "373f5ffa-af56-4777-a166-af770810de6e")
+	)
+	(junction
+		(at 71.12 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a06ed88-0eb0-46aa-8c11-a808d976ec42")
+	)
+	(junction
+		(at 86.36 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cc934ed-007c-4c13-9fc9-4b3416cabc44")
+	)
+	(junction
+		(at 129.54 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e50107a-0098-4e35-bf07-a2c05733cf9d")
+	)
+	(junction
+		(at 134.62 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41048723-6b8d-461a-98e8-0acd8591b2a9")
+	)
+	(junction
+		(at 86.36 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41f6fd11-3f78-4db9-b643-d7f1ad4ba940")
+	)
+	(junction
+		(at 101.6 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4241fa0e-4d97-4f66-81d1-fffb9bd0fc82")
+	)
+	(junction
+		(at 71.12 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42f864c5-0600-4c2a-8817-6692c593bb14")
+	)
+	(junction
+		(at 162.56 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43176f1d-2405-4f64-b4bc-6cfef61db4ef")
+	)
+	(junction
+		(at 114.3 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44da0a8a-e297-40bc-bb7e-3e7090fb8314")
+	)
+	(junction
+		(at 71.12 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45f2a80d-d62f-4996-88a1-eb0d98507ace")
+	)
+	(junction
+		(at 134.62 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "482214c6-2429-4be1-a10d-0bac77931237")
+	)
+	(junction
+		(at 114.3 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48aa9bcf-1073-46e3-9a30-9869d6392d9d")
+	)
+	(junction
+		(at 129.54 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a8c07b0-d6c1-4de9-86be-46f39c5caf12")
+	)
+	(junction
+		(at 71.12 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51e1dbe9-0650-4c97-a378-e4edf8bc74c8")
+	)
+	(junction
+		(at 114.3 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5786242a-8a58-4294-b574-601b043bdda2")
+	)
+	(junction
+		(at 86.36 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c370acf-2750-494e-aabc-b328a8ce4bb5")
+	)
+	(junction
+		(at 83.82 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dc1af1f-d719-4f9b-8110-073b6bf6bc88")
+	)
+	(junction
+		(at 114.3 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f93b8d6-b055-4218-b85a-7a10fc5d6334")
+	)
+	(junction
+		(at 116.84 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "605718a9-eddc-43fa-9c9f-578d47261260")
+	)
+	(junction
+		(at 134.62 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6155f049-5c17-4929-804f-d673a762ac49")
+	)
+	(junction
+		(at 83.82 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64639d9b-25a6-4f3c-b04f-a1d26b1a396b")
+	)
+	(junction
+		(at 134.62 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64b591bc-3fb2-454a-b970-515287f2fa4d")
+	)
+	(junction
+		(at 129.54 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "656913ac-b0ea-49eb-902f-526b57fba4c5")
+	)
+	(junction
+		(at 116.84 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "661d003b-5ef2-4d93-8459-88f731851a48")
+	)
+	(junction
+		(at 83.82 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67235f04-0951-448b-afc9-f8ec8d15be49")
+	)
+	(junction
+		(at 116.84 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "694481a2-0c29-46ec-8894-06720dd8ae83")
+	)
+	(junction
+		(at 129.54 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69c0d767-8528-46da-a8b9-0c375c91c8ce")
+	)
+	(junction
+		(at 162.56 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d418c8c-4160-45ff-82c5-a826b74ff81e")
+	)
+	(junction
+		(at 101.6 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d7ef392-faac-4b9e-a00e-fd6444d9acba")
+	)
+	(junction
+		(at 101.6 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dabe2f8-039f-4743-a23f-a23d0e1e5305")
+	)
+	(junction
+		(at 99.06 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7282723e-f257-49fa-b9fe-7a7bca9dc040")
+	)
+	(junction
+		(at 114.3 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74bbbf22-3a03-4a2e-96c7-83d799137288")
+	)
+	(junction
+		(at 86.36 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "760c1206-3291-49ab-b429-ba186a88c809")
+	)
+	(junction
+		(at 147.32 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78486ce1-8de2-43f3-a1f9-ae98a412cb95")
+	)
+	(junction
+		(at 83.82 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e184224-27f5-4860-9bbc-fe9f0d536d15")
+	)
+	(junction
+		(at 129.54 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "836906ac-738a-4ffc-9bce-ba5009f018ab")
+	)
+	(junction
+		(at 162.56 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87dcfe80-6652-4f49-8ec5-e2c141684518")
+	)
+	(junction
+		(at 71.12 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8915f5d8-248e-4a52-b7d8-e2a9f60c42a8")
+	)
+	(junction
+		(at 114.3 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ad241f5-bd05-48e1-9c8f-c9891bf2ef46")
+	)
+	(junction
+		(at 101.6 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b300dea-4fc9-4b83-a061-1c717a444a4e")
+	)
+	(junction
+		(at 147.32 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "921ecfa0-eb02-44da-8ec2-0f7cdf6a11dd")
+	)
+	(junction
+		(at 86.36 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93823fa2-fd8c-4fbf-b9c4-71a27c677014")
+	)
+	(junction
+		(at 99.06 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95e557eb-cb73-48b2-992d-943eed5689f9")
+	)
+	(junction
+		(at 147.32 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a895c0c-1283-401f-8fb9-5f3eb35b6d53")
+	)
+	(junction
+		(at 114.3 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9eed39f1-a8ff-4489-94ba-bb8d9044d93f")
+	)
+	(junction
+		(at 83.82 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2fcad0b-f0ee-4b5c-b586-da5084849ef6")
+	)
+	(junction
+		(at 147.32 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3a360d2-8449-4c6a-8ed0-4f947af62aa8")
+	)
+	(junction
+		(at 116.84 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a524bcbb-d494-4855-aa00-8cd88f99c8b4")
+	)
+	(junction
+		(at 101.6 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9609ca5-6e13-4a9f-9617-90d911400407")
+	)
+	(junction
+		(at 147.32 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac7923e8-6e88-47c6-8589-b1734a077caf")
+	)
+	(junction
+		(at 162.56 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b195e8ef-54cf-4413-97da-92ca687dcef8")
+	)
+	(junction
+		(at 134.62 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2128c97-6cd7-42b7-9eff-15ef8f029765")
+	)
+	(junction
+		(at 83.82 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3ca2217-1293-4b0c-8b3f-9445be2e4881")
+	)
+	(junction
+		(at 134.62 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9a36c4b-2240-4ad4-90e8-5b5dbcd744c1")
+	)
+	(junction
+		(at 147.32 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc49d5cc-e74c-47b2-8b91-12c4b224a5a3")
+	)
+	(junction
+		(at 101.6 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "befd8b4f-edca-4642-897d-879de58739dc")
+	)
+	(junction
+		(at 86.36 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c32ad2ce-9aab-44ef-9651-4b7f223f1260")
+	)
+	(junction
+		(at 134.62 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6608c0b-fe71-4c65-8978-0bc8a575cba5")
+	)
+	(junction
+		(at 83.82 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb1c0527-7f07-4c3a-8873-28097db1e645")
+	)
+	(junction
+		(at 114.3 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdb5962f-3f88-407a-ae1f-310534777e50")
+	)
+	(junction
+		(at 134.62 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce21a9ce-7db8-4052-ac9e-c58d26388e37")
+	)
+	(junction
+		(at 147.32 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8150e51-d476-44e3-9d2b-da2d40e70b3f")
+	)
+	(junction
+		(at 86.36 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc807fed-089e-4812-ba92-9481ccd896d7")
+	)
+	(junction
+		(at 101.6 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df6effc9-7b95-4134-86a7-5fcc0cd7b37c")
+	)
+	(junction
+		(at 71.12 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0846e13-1429-4033-9b96-9825c1b0d891")
+	)
+	(junction
+		(at 99.06 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3cb724a-2813-499b-a8b5-98cea1b6cb9c")
+	)
+	(junction
+		(at 99.06 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea17d895-07ea-460b-9864-208f5e1532cf")
+	)
+	(junction
+		(at 116.84 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec6bd59a-677e-4341-b666-d26fe339cf50")
+	)
+	(junction
+		(at 129.54 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1731726-c192-4ecd-8ca1-47e25042cc62")
+	)
+	(junction
+		(at 99.06 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4216728-a070-47d0-b11e-ae1aa094032c")
+	)
+	(junction
+		(at 116.84 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7dcdf19-0304-4968-bbe6-8d2d7fea6ee3")
+	)
+	(junction
+		(at 101.6 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faecf38b-2a8b-4a3c-a733-f30ce3e9454c")
+	)
+	(junction
+		(at 162.56 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb7869a2-57dc-4214-8349-5118d87456c9")
+	)
+	(junction
+		(at 101.6 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdf01704-a83c-4e2c-80dc-f099e746e8ce")
+	)
+	(no_connect
+		(at 193.04 157.48)
+		(uuid "122a5d66-3e12-4cdf-ba94-069b650ab5b6")
+	)
+	(no_connect
+		(at 205.74 154.94)
+		(uuid "22112e32-c9a0-495f-a5a2-5440a379750e")
+	)
+	(no_connect
+		(at 241.3 154.94)
+		(uuid "693fc8f8-759a-4e4f-ae1a-47c84769db09")
+	)
+	(no_connect
+		(at 241.3 157.48)
+		(uuid "74df95fc-8a28-4e87-8175-19e5fa42f950")
+	)
+	(no_connect
+		(at 205.74 157.48)
+		(uuid "871a0873-1730-4837-b7c3-7725139858cd")
+	)
+	(no_connect
+		(at 254 154.94)
+		(uuid "8c4d4bfe-033b-48f6-8545-22881729cb1a")
+	)
+	(no_connect
+		(at 193.04 154.94)
+		(uuid "8cdc6246-8c18-4e37-b862-8c21d6060663")
+	)
+	(no_connect
+		(at 254 157.48)
+		(uuid "8d8e7f52-a2e6-4c09-8360-99a37bb5b24f")
+	)
+	(no_connect
+		(at 264.16 116.84)
+		(uuid "9f98ad15-0ce8-4f8d-8c9b-111d44bc34bc")
+	)
+	(no_connect
+		(at 264.16 114.3)
+		(uuid "a48762a5-8c5f-4c36-a35a-6c6f34af2b65")
+	)
+	(no_connect
+		(at 276.86 114.3)
+		(uuid "a92ddd8e-720d-4769-a53f-df961370049d")
+	)
+	(no_connect
+		(at 264.16 119.38)
+		(uuid "b224c313-0be4-49fa-b296-4b676364763e")
+	)
+	(no_connect
+		(at 276.86 116.84)
+		(uuid "c7158fed-4200-47e6-bf3e-cac6721e558f")
+	)
+	(no_connect
+		(at 193.04 160.02)
+		(uuid "d4fe5ae2-835c-4158-a9fc-9024cf657fee")
+	)
+	(no_connect
+		(at 241.3 160.02)
+		(uuid "d8d3a3be-3ec3-46cb-b7dd-13d1a1a64b8b")
+	)
+	(wire
+		(pts
+			(xy 63.5 71.12) (xy 71.12 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "008e3711-1ff9-4d75-a038-a4818b850dbb")
+	)
+	(wire
+		(pts
+			(xy 134.62 58.42) (xy 149.86 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00a39517-9861-41c8-9f42-b8238e1025ed")
+	)
+	(wire
+		(pts
+			(xy 144.78 78.74) (xy 147.32 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f8b862-e0ff-4933-89ce-f81772a422b3")
+	)
+	(wire
+		(pts
+			(xy 71.12 104.14) (xy 101.6 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01c811ef-0cb2-45d0-9e90-55e0ff0c17cc")
+	)
+	(wire
+		(pts
+			(xy 101.6 48.26) (xy 116.84 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02d511b8-d9e5-4f1e-9812-e03226bc4251")
+	)
+	(wire
+		(pts
+			(xy 86.36 81.28) (xy 86.36 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e386ef-5583-4ebc-8a7d-dfe02ca66777")
+	)
+	(wire
+		(pts
+			(xy 63.5 157.48) (xy 68.58 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04594983-f598-4ba4-b2f0-d63bd94f61db")
+	)
+	(wire
+		(pts
+			(xy 86.36 71.12) (xy 101.6 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05249d05-b796-4e90-a64b-d478aa365f9f")
+	)
+	(wire
+		(pts
+			(xy 63.5 127) (xy 71.12 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07494d8f-0fc4-4358-a6a9-24878ffed54a")
+	)
+	(wire
+		(pts
+			(xy 134.62 116.84) (xy 134.62 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09f1f6a3-49b9-4848-8e59-6a56c23e3a96")
+	)
+	(wire
+		(pts
+			(xy 101.6 127) (xy 116.84 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b0fa922-772e-4810-bcc4-f5572aa678e5")
+	)
+	(wire
+		(pts
+			(xy 149.86 48.26) (xy 149.86 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0be5d7af-e532-4b06-b614-bc3ead4ee7d6")
+	)
+	(wire
+		(pts
+			(xy 63.5 167.64) (xy 71.12 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d5b6587-bc7d-40c3-9782-ea5e15cc8a23")
+	)
+	(wire
+		(pts
+			(xy 114.3 114.3) (xy 114.3 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f845c99-51a0-4e62-bbb6-bad95b65e07f")
+	)
+	(wire
+		(pts
+			(xy 86.36 35.56) (xy 86.36 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f92c3af-fafe-4f34-945f-84041ef71c49")
+	)
+	(wire
+		(pts
+			(xy 134.62 127) (xy 149.86 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "103ee95e-a254-47d6-b21f-826c960be794")
+	)
+	(wire
+		(pts
+			(xy 99.06 22.86) (xy 99.06 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1073bc01-b896-4188-8d42-4abce075ce74")
+	)
+	(wire
+		(pts
+			(xy 144.78 33.02) (xy 147.32 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b36a7a-5cc5-4db5-a97e-8c9b2b35b695")
+	)
+	(wire
+		(pts
+			(xy 111.76 91.44) (xy 114.3 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "111395b1-0e4a-4963-bc8e-6971b769b109")
+	)
+	(wire
+		(pts
+			(xy 129.54 114.3) (xy 129.54 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ac27fd-7f22-4fe8-b87b-25d86ce8b358")
+	)
+	(wire
+		(pts
+			(xy 86.36 25.4) (xy 101.6 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12424c4c-8427-49f6-8d6b-28cb3adb16c9")
+	)
+	(wire
+		(pts
+			(xy 134.62 48.26) (xy 149.86 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13435d6c-1aa8-4be0-9c10-e002ffebfca4")
+	)
+	(wire
+		(pts
+			(xy 111.76 68.58) (xy 114.3 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1426a36b-04d7-4384-aac0-23ce629a13d5")
+	)
+	(wire
+		(pts
+			(xy 81.28 45.72) (xy 83.82 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14934ae2-4ba9-4d8e-b847-179e3ec43d89")
+	)
+	(wire
+		(pts
+			(xy 160.02 68.58) (xy 162.56 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1574134d-a9d0-4f72-b644-9c4d395325e0")
+	)
+	(wire
+		(pts
+			(xy 116.84 48.26) (xy 134.62 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "159e27e5-db11-4a1e-b6bc-ec5ca90dcd92")
+	)
+	(wire
+		(pts
+			(xy 96.52 91.44) (xy 99.06 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18266790-42b5-4192-b6e1-85ccb537be34")
+	)
+	(wire
+		(pts
+			(xy 99.06 68.58) (xy 99.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f14814-4984-409b-b584-5f0ef049bbc7")
+	)
+	(wire
+		(pts
+			(xy 160.02 78.74) (xy 162.56 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19283b66-2747-46a0-8f10-7f6bb66a953d")
+	)
+	(wire
+		(pts
+			(xy 149.86 101.6) (xy 149.86 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1961be5d-bc8e-4663-a487-6e63c03b3986")
+	)
+	(wire
+		(pts
+			(xy 99.06 167.64) (xy 96.52 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d77712-e05a-4b64-a41f-8cba4d37abc4")
+	)
+	(wire
+		(pts
+			(xy 129.54 45.72) (xy 129.54 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a62ae31-a128-4cce-bb49-75c4309d9059")
+	)
+	(wire
+		(pts
+			(xy 162.56 114.3) (xy 162.56 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b598985-e778-4d6e-a33f-cac4753778b7")
+	)
+	(wire
+		(pts
+			(xy 147.32 33.02) (xy 147.32 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b620d5c-8228-43f9-98ae-bdcf7dd99b5f")
+	)
+	(wire
+		(pts
+			(xy 149.86 93.98) (xy 149.86 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b9dfd8b-cc06-4bef-a102-07d7656c9768")
+	)
+	(wire
+		(pts
+			(xy 147.32 101.6) (xy 147.32 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2311879d-8a33-43cf-aad3-206218630d62")
+	)
+	(wire
+		(pts
+			(xy 101.6 101.6) (xy 101.6 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a0d316-2934-4354-a9e1-9027c7217956")
+	)
+	(wire
+		(pts
+			(xy 96.52 22.86) (xy 99.06 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f5f08d-7b01-493b-8c61-07a12311597c")
+	)
+	(wire
+		(pts
+			(xy 86.36 58.42) (xy 101.6 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2532b303-71e2-41ab-a27c-ea9cd9a84dfc")
+	)
+	(wire
+		(pts
+			(xy 149.86 71.12) (xy 149.86 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "265217f2-fbdd-42d7-b468-54f88863e68c")
+	)
+	(wire
+		(pts
+			(xy 162.56 68.58) (xy 162.56 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26c9c1f8-769d-4e58-98df-ccadb886940e")
+	)
+	(wire
+		(pts
+			(xy 114.3 124.46) (xy 114.3 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "285f49d3-d5a4-461c-ba7f-5794ec3c07ed")
+	)
+	(wire
+		(pts
+			(xy 162.56 101.6) (xy 162.56 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29948c59-66cb-4b03-9ebc-29168d94aca3")
+	)
+	(wire
+		(pts
+			(xy 96.52 45.72) (xy 99.06 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b47a227-91f1-494e-8bb9-f11ff6cea9ea")
+	)
+	(wire
+		(pts
+			(xy 63.5 93.98) (xy 71.12 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c010d51-3590-4d33-8b1d-3c85e6866986")
+	)
+	(wire
+		(pts
+			(xy 144.78 114.3) (xy 147.32 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cf05844-36a7-4d05-9587-74e946a99faa")
+	)
+	(wire
+		(pts
+			(xy 83.82 114.3) (xy 83.82 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e1d09a2-70ef-4bba-8595-9e1f7bc0762f")
+	)
+	(wire
+		(pts
+			(xy 129.54 33.02) (xy 129.54 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2efa3a7c-ddaa-4b24-8966-6d7964e50e62")
+	)
+	(wire
+		(pts
+			(xy 86.36 167.64) (xy 86.36 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fa041e0-bb71-41e5-8991-685c0482e697")
+	)
+	(wire
+		(pts
+			(xy 144.78 22.86) (xy 147.32 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3046cb32-9f29-48ce-99ff-feb83e631bd4")
+	)
+	(wire
+		(pts
+			(xy 101.6 127) (xy 101.6 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34edf6f2-91ff-4e0b-9877-4f07ea2d0901")
+	)
+	(wire
+		(pts
+			(xy 149.86 116.84) (xy 149.86 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b01f95-cce4-48c5-9353-9370221c5742")
+	)
+	(wire
+		(pts
+			(xy 116.84 25.4) (xy 134.62 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "365b4447-89cd-4665-959f-89ec2022f3c9")
+	)
+	(wire
+		(pts
+			(xy 83.82 124.46) (xy 83.82 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e4807b-8298-469f-8254-514d1c2827e8")
+	)
+	(wire
+		(pts
+			(xy 83.82 55.88) (xy 83.82 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38a350d5-f3e0-4722-a4b7-06c345a20296")
+	)
+	(wire
+		(pts
+			(xy 134.62 35.56) (xy 134.62 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38a623aa-63ba-4340-ab19-0fc03234e861")
+	)
+	(wire
+		(pts
+			(xy 134.62 93.98) (xy 134.62 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39048b05-4249-475b-958f-679b3f06d98f")
+	)
+	(wire
+		(pts
+			(xy 147.32 124.46) (xy 147.32 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39e9bb02-d169-46f5-9567-2f9d272bb79f")
+	)
+	(wire
+		(pts
+			(xy 71.12 81.28) (xy 86.36 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd03268-fc0b-444a-b6d1-4e2ef0db3009")
+	)
+	(wire
+		(pts
+			(xy 127 33.02) (xy 129.54 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d8c8050-ab11-453b-9eb8-12db10fb05a3")
+	)
+	(wire
+		(pts
+			(xy 162.56 22.86) (xy 162.56 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db02796-b2d8-4896-b10a-4a695f563d2e")
+	)
+	(wire
+		(pts
+			(xy 129.54 124.46) (xy 129.54 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f359123-ed41-43b4-879c-7fdf9a3ab464")
+	)
+	(wire
+		(pts
+			(xy 149.86 22.86) (xy 149.86 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40123ba8-e8f5-4804-af29-f46be1b5b584")
+	)
+	(wire
+		(pts
+			(xy 63.5 25.4) (xy 86.36 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f191a4-4650-498b-a6fe-0495f1e61c00")
+	)
+	(wire
+		(pts
+			(xy 160.02 55.88) (xy 162.56 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41ceba76-0961-4553-a351-6653a4ff30c0")
+	)
+	(wire
+		(pts
+			(xy 83.82 180.34) (xy 78.74 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4377b5b3-2487-4661-a0b6-632cb21bb763")
+	)
+	(wire
+		(pts
+			(xy 83.82 172.72) (xy 83.82 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44731827-9e5c-427b-99d9-8eb2bf63781b")
+	)
+	(wire
+		(pts
+			(xy 63.5 116.84) (xy 71.12 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44fda851-e43f-4dd4-ba5f-5bfd98292aea")
+	)
+	(wire
+		(pts
+			(xy 129.54 91.44) (xy 129.54 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45043046-747d-4da8-aba9-59e284679c20")
+	)
+	(wire
+		(pts
+			(xy 144.78 101.6) (xy 147.32 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "463ee6aa-fd77-4c72-a1ac-7614009185fa")
+	)
+	(wire
+		(pts
+			(xy 162.56 124.46) (xy 162.56 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "463fac54-9077-4b45-87f6-553f4d392ad2")
+	)
+	(wire
+		(pts
+			(xy 147.32 22.86) (xy 147.32 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "471ed320-ba0b-4714-892e-6c57f7a0c7ab")
+	)
+	(wire
+		(pts
+			(xy 162.56 55.88) (xy 162.56 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4895603e-7b9d-4f46-bd90-e9457ecbb321")
+	)
+	(wire
+		(pts
+			(xy 63.5 147.32) (xy 162.56 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48aa88d8-f1c6-4a3e-be85-528722dc696a")
+	)
+	(wire
+		(pts
+			(xy 134.62 93.98) (xy 149.86 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49d790a9-c568-450f-ab16-253949d11729")
+	)
+	(wire
+		(pts
+			(xy 144.78 55.88) (xy 147.32 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cd7696b-b58c-422f-b63d-80d1583013e0")
+	)
+	(wire
+		(pts
+			(xy 71.12 58.42) (xy 86.36 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5013d0c4-5a98-44d2-9956-d13e9f3c1188")
+	)
+	(wire
+		(pts
+			(xy 144.78 91.44) (xy 147.32 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "509866f4-3b4f-42a8-8ebc-492447281058")
+	)
+	(wire
+		(pts
+			(xy 101.6 35.56) (xy 116.84 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "511338a2-f968-4b9f-ae0a-b2855e1f15eb")
+	)
+	(wire
+		(pts
+			(xy 134.62 116.84) (xy 149.86 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "512f2202-6603-47e9-a2ec-35dcd468434c")
+	)
+	(wire
+		(pts
+			(xy 162.56 91.44) (xy 162.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51572f46-507c-4a8e-add6-b5c5878fe9e5")
+	)
+	(wire
+		(pts
+			(xy 127 45.72) (xy 129.54 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "526c0abe-0cf5-4305-b95b-063280d6d796")
+	)
+	(wire
+		(pts
+			(xy 71.12 71.12) (xy 86.36 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "559317c3-5f96-407b-bf97-1a919481f16a")
+	)
+	(wire
+		(pts
+			(xy 96.52 68.58) (xy 99.06 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55d19cc6-9697-4b21-9684-662feb86fbaf")
+	)
+	(wire
+		(pts
+			(xy 129.54 22.86) (xy 129.54 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5677ff2e-88f1-4e06-b5f4-73a5ffc16bf5")
+	)
+	(wire
+		(pts
+			(xy 101.6 116.84) (xy 101.6 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f27c57-de87-44fe-aa34-8c83d0fd5203")
+	)
+	(wire
+		(pts
+			(xy 71.12 116.84) (xy 71.12 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5847de6f-1102-4568-98ba-c69a87d0b12a")
+	)
+	(wire
+		(pts
+			(xy 129.54 55.88) (xy 129.54 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5995c346-16ed-4584-9f44-0e0d894b44ea")
+	)
+	(wire
+		(pts
+			(xy 71.12 101.6) (xy 71.12 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59b81a98-e7ef-4579-ac28-335fe63bdf3d")
+	)
+	(wire
+		(pts
+			(xy 81.28 167.64) (xy 83.82 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c59b6d4-487f-4da2-b5b7-7b78782b4114")
+	)
+	(wire
+		(pts
+			(xy 116.84 35.56) (xy 134.62 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5da5e134-155d-46bd-88f8-3b73e67baedf")
+	)
+	(wire
+		(pts
+			(xy 116.84 127) (xy 134.62 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e6c82e7-bd77-4ff7-a29b-955c085f40af")
+	)
+	(wire
+		(pts
+			(xy 86.36 93.98) (xy 101.6 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6169df5b-8647-4bba-8d04-32e4870f529d")
+	)
+	(wire
+		(pts
+			(xy 63.5 144.78) (xy 147.32 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62123e62-c3e2-4c89-b910-5bbd1b9d9949")
+	)
+	(wire
+		(pts
+			(xy 149.86 127) (xy 149.86 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62907554-ba71-4ceb-bce9-0a32ff60f78d")
+	)
+	(wire
+		(pts
+			(xy 78.74 157.48) (xy 83.82 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63287b7a-16e3-4bc0-b869-4599b4179864")
+	)
+	(wire
+		(pts
+			(xy 71.12 55.88) (xy 71.12 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63323b3d-4692-4ae3-84ed-d8eac8ca2134")
+	)
+	(wire
+		(pts
+			(xy 71.12 116.84) (xy 101.6 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63573872-428f-44fc-85c0-edb383dfa2b7")
+	)
+	(wire
+		(pts
+			(xy 63.5 137.16) (xy 99.06 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64b0b089-f94f-46a6-9ec3-161abc1afbfa")
+	)
+	(wire
+		(pts
+			(xy 101.6 116.84) (xy 116.84 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6580d1ee-a392-476b-b379-4db5eb21ee4b")
+	)
+	(wire
+		(pts
+			(xy 116.84 101.6) (xy 116.84 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "673b3375-f1f4-46a7-99e5-ae2d188364d7")
+	)
+	(wire
+		(pts
+			(xy 101.6 55.88) (xy 101.6 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677da7aa-1f1f-4f93-bf51-fc988ada6786")
+	)
+	(wire
+		(pts
+			(xy 116.84 116.84) (xy 134.62 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b8d9441-b481-4415-9133-1f8fec42992c")
+	)
+	(wire
+		(pts
+			(xy 99.06 55.88) (xy 99.06 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd0c73b-8cad-4a2c-81fa-250a5e6f098b")
+	)
+	(wire
+		(pts
+			(xy 160.02 91.44) (xy 162.56 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c6ee222-6f13-4857-90e8-035f21afd8b3")
+	)
+	(wire
+		(pts
+			(xy 83.82 190.5) (xy 83.82 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cce4a3b-0f4a-4b31-a76b-38cb0e7e52df")
+	)
+	(wire
+		(pts
+			(xy 78.74 190.5) (xy 83.82 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd2e8c6-ca52-4ed6-8f55-73188f18e6a7")
+	)
+	(wire
+		(pts
+			(xy 160.02 22.86) (xy 162.56 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dffea2e-a572-4eef-925f-84a97ffeba96")
+	)
+	(wire
+		(pts
+			(xy 147.32 91.44) (xy 147.32 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eee01cc-242f-42be-b0cc-84bd93e4935f")
+	)
+	(wire
+		(pts
+			(xy 63.5 35.56) (xy 86.36 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "709c41af-f6b8-45b1-8483-9b42f1f82752")
+	)
+	(wire
+		(pts
+			(xy 116.84 58.42) (xy 134.62 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71513f3b-477f-4551-8ce4-6a1a52b71570")
+	)
+	(wire
+		(pts
+			(xy 63.5 190.5) (xy 68.58 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72c923dc-9256-462f-9735-98d84f878338")
+	)
+	(wire
+		(pts
+			(xy 127 78.74) (xy 129.54 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73744ab0-51a0-4e60-a722-29aeffc1c43c")
+	)
+	(wire
+		(pts
+			(xy 111.76 114.3) (xy 114.3 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "745eb2ec-55f6-40bd-aa5a-a0e61219cae9")
+	)
+	(wire
+		(pts
+			(xy 147.32 55.88) (xy 147.32 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74a33dc3-c731-4c06-949b-72badd49c1e0")
+	)
+	(wire
+		(pts
+			(xy 111.76 33.02) (xy 114.3 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "753ef87c-326f-484d-b605-0dab1cbedb70")
+	)
+	(wire
+		(pts
+			(xy 144.78 45.72) (xy 147.32 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75b661f8-685b-45e2-8123-b60930710dd6")
+	)
+	(wire
+		(pts
+			(xy 101.6 71.12) (xy 101.6 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "766146ae-8791-4f50-8ac5-2c9ce8bb778c")
+	)
+	(wire
+		(pts
+			(xy 63.5 58.42) (xy 71.12 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77917369-e9ef-4087-a09a-e92e5aae8dda")
+	)
+	(wire
+		(pts
+			(xy 160.02 33.02) (xy 162.56 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77ae1b14-78b1-4f1a-8028-dbf4717ce974")
+	)
+	(wire
+		(pts
+			(xy 134.62 22.86) (xy 134.62 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b513920-1dd9-4803-a029-19279af9f68d")
+	)
+	(wire
+		(pts
+			(xy 114.3 22.86) (xy 114.3 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b6e7682-022e-4794-a099-12002bd79a7e")
+	)
+	(wire
+		(pts
+			(xy 83.82 68.58) (xy 83.82 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bb17484-3b22-42b1-965a-b65548b5b9e1")
+	)
+	(wire
+		(pts
+			(xy 127 68.58) (xy 129.54 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bfa0977-4c82-4819-8024-0b4b50e99530")
+	)
+	(wire
+		(pts
+			(xy 116.84 93.98) (xy 134.62 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cda305c-8817-426e-82fa-78a10bcd5967")
+	)
+	(wire
+		(pts
+			(xy 147.32 114.3) (xy 147.32 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e2d443d-55be-4c41-bca9-87ff25d24513")
+	)
+	(wire
+		(pts
+			(xy 116.84 104.14) (xy 134.62 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ea5c8de-fac1-4dde-8b6a-1610f639ac4c")
+	)
+	(wire
+		(pts
+			(xy 116.84 22.86) (xy 116.84 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80ee24db-faf5-4f51-ac18-d528f802bf2a")
+	)
+	(wire
+		(pts
+			(xy 71.12 48.26) (xy 86.36 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81100a49-01c2-4fea-81fb-572f2a2bae84")
+	)
+	(wire
+		(pts
+			(xy 86.36 81.28) (xy 101.6 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "828939a1-da3f-4d8b-a940-2f40838ecc76")
+	)
+	(wire
+		(pts
+			(xy 81.28 68.58) (xy 83.82 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82c06901-f67f-4814-99a0-f40d8e06c7ea")
+	)
+	(wire
+		(pts
+			(xy 86.36 93.98) (xy 86.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82f4c582-1bdf-4b11-a63e-af9929b32946")
+	)
+	(wire
+		(pts
+			(xy 149.86 55.88) (xy 149.86 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "839434db-84f7-4dd2-89fb-8b3830eee344")
+	)
+	(wire
+		(pts
+			(xy 101.6 22.86) (xy 101.6 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8593f53a-eb6d-4180-9a3f-dcc6b20e4fc0")
+	)
+	(wire
+		(pts
+			(xy 96.52 78.74) (xy 99.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8731e46b-aa19-4fe7-b323-f1f7f3ef818c")
+	)
+	(wire
+		(pts
+			(xy 134.62 81.28) (xy 134.62 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b20af80-2744-4e59-8a02-1123a3f6699f")
+	)
+	(wire
+		(pts
+			(xy 86.36 22.86) (xy 86.36 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b80845f-ea3d-4c37-87cc-f235c9c74640")
+	)
+	(wire
+		(pts
+			(xy 71.12 48.26) (xy 71.12 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cc424ea-5c08-4576-b61a-d20d0192306a")
+	)
+	(wire
+		(pts
+			(xy 111.76 78.74) (xy 114.3 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cd93aca-063b-4809-9a3d-db8271377e29")
+	)
+	(wire
+		(pts
+			(xy 71.12 167.64) (xy 71.12 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dda1e37-f6f1-4f56-9abf-2155343868f6")
+	)
+	(wire
+		(pts
+			(xy 96.52 33.02) (xy 99.06 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e280933-f593-479a-bbae-3509984b7800")
+	)
+	(wire
+		(pts
+			(xy 63.5 195.58) (xy 83.82 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e57b61b-6d76-4846-843b-ede5493262f4")
+	)
+	(wire
+		(pts
+			(xy 71.12 127) (xy 101.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f5f7d82-e436-447b-a832-8a87e9f11f12")
+	)
+	(wire
+		(pts
+			(xy 99.06 91.44) (xy 99.06 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f7a50fe-9d64-4c2e-8c2c-0d27868b9f19")
+	)
+	(wire
+		(pts
+			(xy 134.62 104.14) (xy 149.86 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90431b32-b9fd-402c-a6a1-417034435dd8")
+	)
+	(wire
+		(pts
+			(xy 149.86 81.28) (xy 149.86 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90a53475-b02a-4fb9-b31e-50d22bcc8485")
+	)
+	(wire
+		(pts
+			(xy 83.82 45.72) (xy 83.82 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91df8a46-fd04-4150-a511-c5f529e12ca6")
+	)
+	(wire
+		(pts
+			(xy 86.36 55.88) (xy 86.36 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922f9a6b-4f58-4dd8-af56-8ced6290c9c0")
+	)
+	(wire
+		(pts
+			(xy 71.12 71.12) (xy 71.12 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9271f119-6c13-4a6e-91b3-1a930603ff15")
+	)
+	(wire
+		(pts
+			(xy 83.82 157.48) (xy 83.82 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92e3b704-3e68-45f4-94ea-ed991ee0e85d")
+	)
+	(wire
+		(pts
+			(xy 101.6 93.98) (xy 101.6 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93654826-bfcc-4f21-b05c-e5ed4f664247")
+	)
+	(wire
+		(pts
+			(xy 114.3 55.88) (xy 114.3 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94c89a1a-bc0b-4396-890a-56c996f73352")
+	)
+	(wire
+		(pts
+			(xy 144.78 124.46) (xy 147.32 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94c8efa6-dc40-42e1-b0dd-92103348d165")
+	)
+	(wire
+		(pts
+			(xy 160.02 124.46) (xy 162.56 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9759a776-ca69-4488-9d9c-ef0ac12c77cc")
+	)
+	(wire
+		(pts
+			(xy 111.76 45.72) (xy 114.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "979ce2f7-4b1a-428e-82ce-2735bdcaf59d")
+	)
+	(wire
+		(pts
+			(xy 147.32 45.72) (xy 147.32 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98e22509-4990-45f1-b907-3cf4901d1bfb")
+	)
+	(wire
+		(pts
+			(xy 129.54 68.58) (xy 129.54 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99129f95-22c1-4d18-8dd5-9c7348035f92")
+	)
+	(wire
+		(pts
+			(xy 116.84 48.26) (xy 116.84 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "991f89a7-bd0e-486b-a9ee-6df88a8c68db")
+	)
+	(wire
+		(pts
+			(xy 83.82 172.72) (xy 99.06 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a471061-3852-4009-8b12-ae7027626e64")
+	)
+	(wire
+		(pts
+			(xy 99.06 45.72) (xy 99.06 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b075ff1-fbb7-41da-80c8-54163faceb5a")
+	)
+	(wire
+		(pts
+			(xy 127 22.86) (xy 129.54 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dda9b57-2666-4cba-aad0-b6119d57de3f")
+	)
+	(wire
+		(pts
+			(xy 83.82 167.64) (xy 83.82 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f675e2a-6c73-4a85-bc83-79e531f9880e")
+	)
+	(wire
+		(pts
+			(xy 114.3 45.72) (xy 114.3 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fb0d610-62dc-4070-a114-9f7398ca7446")
+	)
+	(wire
+		(pts
+			(xy 83.82 101.6) (xy 83.82 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a177d4f3-6f4f-4fc5-8906-7ea575d1f9b0")
+	)
+	(wire
+		(pts
+			(xy 116.84 71.12) (xy 116.84 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a181fb7e-19f6-4106-b495-c477f9220bd5")
+	)
+	(wire
+		(pts
+			(xy 160.02 45.72) (xy 162.56 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2b27ed0-340d-4d2c-be99-bceecf8a299e")
+	)
+	(wire
+		(pts
+			(xy 114.3 101.6) (xy 114.3 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c70c1f-6d1e-4a3b-910d-25fb35c53412")
+	)
+	(wire
+		(pts
+			(xy 114.3 33.02) (xy 114.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2e9b81c-80ff-4472-bc0c-448a54c797d8")
+	)
+	(wire
+		(pts
+			(xy 101.6 93.98) (xy 116.84 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a355ea8d-1b32-44a4-8424-4282ff6bab87")
+	)
+	(wire
+		(pts
+			(xy 111.76 55.88) (xy 114.3 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4aa6cc0-807b-4b77-b565-e4601eac92e4")
+	)
+	(wire
+		(pts
+			(xy 127 101.6) (xy 129.54 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50f740b-a05f-43f1-8009-13e2a1b6ac79")
+	)
+	(wire
+		(pts
+			(xy 63.5 180.34) (xy 68.58 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60b6bf7-8b47-4f9d-bbf6-147c9c59ff6d")
+	)
+	(wire
+		(pts
+			(xy 63.5 134.62) (xy 83.82 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a64d8a3b-2b91-427f-86c9-ad446f891b53")
+	)
+	(wire
+		(pts
+			(xy 83.82 78.74) (xy 83.82 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f32779-65ea-4ef3-9e2d-5a035284dad0")
+	)
+	(wire
+		(pts
+			(xy 127 55.88) (xy 129.54 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9164258-756d-47fd-802c-5ea62538ab11")
+	)
+	(wire
+		(pts
+			(xy 81.28 124.46) (xy 83.82 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9b1a2c7-6c98-4add-b5cc-0d84245f2853")
+	)
+	(wire
+		(pts
+			(xy 101.6 71.12) (xy 116.84 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab9bb4c5-1da8-43f3-bc2d-689aa852845b")
+	)
+	(wire
+		(pts
+			(xy 99.06 172.72) (xy 99.06 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac1fa178-ebc5-4732-b598-5d3838e173bb")
+	)
+	(wire
+		(pts
+			(xy 101.6 81.28) (xy 101.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad2e45ac-f27c-4036-85de-fc724b7cbd4e")
+	)
+	(wire
+		(pts
+			(xy 114.3 91.44) (xy 114.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aded0eea-a515-4a25-830d-5855fbfc64c4")
+	)
+	(wire
+		(pts
+			(xy 71.12 81.28) (xy 71.12 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b013b986-92fd-4aca-bc03-57064758a912")
+	)
+	(wire
+		(pts
+			(xy 144.78 68.58) (xy 147.32 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b192e957-a325-468b-bdd5-56a571a30808")
+	)
+	(wire
+		(pts
+			(xy 147.32 78.74) (xy 147.32 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d89556-1c9b-4181-b104-935212fba0e9")
+	)
+	(wire
+		(pts
+			(xy 147.32 68.58) (xy 147.32 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8654608-72c8-4104-b96f-abe6c145b46a")
+	)
+	(wire
+		(pts
+			(xy 101.6 58.42) (xy 116.84 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b887b12d-6aaf-430a-9fdb-32bfba8bda96")
+	)
+	(wire
+		(pts
+			(xy 134.62 81.28) (xy 149.86 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bacf5ebd-2df0-4985-8522-560edbd5f133")
+	)
+	(wire
+		(pts
+			(xy 63.5 81.28) (xy 71.12 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be48105f-8479-4c34-a8c2-b654dbed9118")
+	)
+	(wire
+		(pts
+			(xy 101.6 104.14) (xy 116.84 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be8d6cf0-fbc1-4407-a03f-481aa9e3d945")
+	)
+	(wire
+		(pts
+			(xy 116.84 35.56) (xy 116.84 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb7f82c-cbd6-492c-ba3a-467502f10a03")
+	)
+	(wire
+		(pts
+			(xy 101.6 25.4) (xy 116.84 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed4a6ba-4a9f-42d6-ab28-4533fe77cccc")
+	)
+	(wire
+		(pts
+			(xy 114.3 68.58) (xy 114.3 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c143baf6-5527-43f1-b61b-4a0a859bac34")
+	)
+	(wire
+		(pts
+			(xy 111.76 124.46) (xy 114.3 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2dbcb15-4fd1-4514-8a7b-9272b5108dbc")
+	)
+	(wire
+		(pts
+			(xy 160.02 114.3) (xy 162.56 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c36356df-70bc-4a1b-9dd5-7521b5538093")
+	)
+	(wire
+		(pts
+			(xy 114.3 78.74) (xy 114.3 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d0650b-8022-4708-a862-4499de23bfb9")
+	)
+	(wire
+		(pts
+			(xy 81.28 55.88) (xy 83.82 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c879fd29-a2ea-432e-b425-1872c4ce69dc")
+	)
+	(wire
+		(pts
+			(xy 149.86 35.56) (xy 149.86 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cae74291-5bef-4c19-8bce-d35977fb714f")
+	)
+	(wire
+		(pts
+			(xy 134.62 35.56) (xy 149.86 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc5194f8-d18f-41e8-a7b5-3a6a5cc720e0")
+	)
+	(wire
+		(pts
+			(xy 71.12 127) (xy 71.12 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb3c9d7-7b2b-47be-8c5a-748ac7739366")
+	)
+	(wire
+		(pts
+			(xy 71.12 93.98) (xy 71.12 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd973a7-9a83-4de3-ab7b-b4e718ddfd43")
+	)
+	(wire
+		(pts
+			(xy 116.84 71.12) (xy 134.62 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d04fd220-f574-4d34-a422-a96b403d03e5")
+	)
+	(wire
+		(pts
+			(xy 86.36 48.26) (xy 86.36 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10e455c-6f84-4fb3-b251-0bb71bc57488")
+	)
+	(wire
+		(pts
+			(xy 63.5 104.14) (xy 71.12 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ce1ceb-bbe0-43e5-99d6-0cbf6b7ed544")
+	)
+	(wire
+		(pts
+			(xy 127 91.44) (xy 129.54 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d332b325-2dcb-45ff-ae81-78977a993f37")
+	)
+	(wire
+		(pts
+			(xy 162.56 78.74) (xy 162.56 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3aa340d-e87f-47e6-9bbf-4ada859f78bb")
+	)
+	(wire
+		(pts
+			(xy 63.5 48.26) (xy 71.12 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b125cd-ee7c-4868-a53f-112866952e5f")
+	)
+	(wire
+		(pts
+			(xy 111.76 101.6) (xy 114.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5294949-7aef-41fb-9f77-312feda7c2d9")
+	)
+	(wire
+		(pts
+			(xy 134.62 55.88) (xy 134.62 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d596a334-ebec-4147-b941-994e8a3f5c3b")
+	)
+	(wire
+		(pts
+			(xy 116.84 81.28) (xy 134.62 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d91254-fc39-498c-a748-59f5088eee80")
+	)
+	(wire
+		(pts
+			(xy 99.06 78.74) (xy 99.06 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d64b5a81-8b93-4346-9c24-b625446f5416")
+	)
+	(wire
+		(pts
+			(xy 99.06 33.02) (xy 99.06 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d676f9bb-6e90-4317-b481-3154afa68f63")
+	)
+	(wire
+		(pts
+			(xy 86.36 48.26) (xy 101.6 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d73f0070-7157-48e2-8bee-20f960402c05")
+	)
+	(wire
+		(pts
+			(xy 81.28 114.3) (xy 83.82 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d827305b-2eb8-4d17-babb-0a3c3909ca14")
+	)
+	(wire
+		(pts
+			(xy 127 124.46) (xy 129.54 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da48ac87-0db4-46c7-ad94-9ca1ade7586d")
+	)
+	(wire
+		(pts
+			(xy 116.84 93.98) (xy 116.84 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db82fe8a-74d0-4c89-ba13-2bc455627929")
+	)
+	(wire
+		(pts
+			(xy 71.12 93.98) (xy 86.36 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbdd158f-89ce-4d04-9784-8c26ba08dd2c")
+	)
+	(wire
+		(pts
+			(xy 81.28 78.74) (xy 83.82 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddc83650-2333-47be-9abb-c1d23d9e761f")
+	)
+	(wire
+		(pts
+			(xy 134.62 127) (xy 134.62 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de7cf764-7bb7-4e16-b6d4-368e5bda2987")
+	)
+	(wire
+		(pts
+			(xy 83.82 91.44) (xy 83.82 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded25c93-6a73-4a87-b955-18d6f7b18251")
+	)
+	(wire
+		(pts
+			(xy 81.28 91.44) (xy 83.82 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deed0a18-474a-432f-a03b-5835711129fa")
+	)
+	(wire
+		(pts
+			(xy 63.5 142.24) (xy 129.54 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0aac129-561f-4c5c-a720-8847a8ac3e08")
+	)
+	(wire
+		(pts
+			(xy 116.84 81.28) (xy 116.84 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3760840-d394-4566-8204-57d3deee7e43")
+	)
+	(wire
+		(pts
+			(xy 101.6 81.28) (xy 116.84 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e79621b7-0ee0-42e4-8604-6bc840e098a1")
+	)
+	(wire
+		(pts
+			(xy 134.62 71.12) (xy 149.86 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e81aacf7-ea69-4682-89ed-5f4d9a172f79")
+	)
+	(wire
+		(pts
+			(xy 162.56 33.02) (xy 162.56 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9c1b902-1d88-4d91-a0cd-26f0ba064fa2")
+	)
+	(wire
+		(pts
+			(xy 83.82 180.34) (xy 83.82 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb1b7d22-974b-40cb-8345-9d94a6a16804")
+	)
+	(wire
+		(pts
+			(xy 127 114.3) (xy 129.54 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb8e96b8-63b5-4e0f-90a9-280206003574")
+	)
+	(wire
+		(pts
+			(xy 96.52 55.88) (xy 99.06 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc2ed18-58e7-4bf0-93f9-630e8024f0c9")
+	)
+	(wire
+		(pts
+			(xy 116.84 55.88) (xy 116.84 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc3c282-eab5-41bb-958f-197f7f9858a9")
+	)
+	(wire
+		(pts
+			(xy 160.02 101.6) (xy 162.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc851cb-e748-4d69-b926-42ddc3e6177b")
+	)
+	(wire
+		(pts
+			(xy 101.6 35.56) (xy 101.6 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0a44c14-d1a4-40ed-88e0-17735906e08a")
+	)
+	(wire
+		(pts
+			(xy 134.62 25.4) (xy 149.86 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d79025-d5bf-47b1-9f96-26d7d5148db5")
+	)
+	(wire
+		(pts
+			(xy 63.5 139.7) (xy 114.3 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1eda7f5-5a68-49b3-8a2d-83848ce68b36")
+	)
+	(wire
+		(pts
+			(xy 101.6 48.26) (xy 101.6 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3352d0f-b667-4ace-ba17-cbf41c369bb4")
+	)
+	(wire
+		(pts
+			(xy 129.54 101.6) (xy 129.54 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4777fcc-bbf0-40b7-b973-71b7d7310b4e")
+	)
+	(wire
+		(pts
+			(xy 116.84 116.84) (xy 116.84 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47c90c4-f1fe-4b63-a7fc-3264b33d4439")
+	)
+	(wire
+		(pts
+			(xy 71.12 170.18) (xy 86.36 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4d1ab6f-74e0-4579-a772-c048ca1ac86a")
+	)
+	(wire
+		(pts
+			(xy 134.62 101.6) (xy 134.62 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8426e83-4a6a-421b-8215-7235eee8f3bc")
+	)
+	(wire
+		(pts
+			(xy 162.56 45.72) (xy 162.56 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb66fa9b-a1c4-440e-b139-fafcb46d25e0")
+	)
+	(wire
+		(pts
+			(xy 86.36 35.56) (xy 101.6 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fba7c57e-965d-4a48-9626-2128241cc03b")
+	)
+	(wire
+		(pts
+			(xy 134.62 71.12) (xy 134.62 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe5bba7-b0ef-476f-8a77-1d5d5b610781")
+	)
+	(wire
+		(pts
+			(xy 134.62 48.26) (xy 134.62 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd3272cf-6c02-45f3-95da-dba567d59213")
+	)
+	(wire
+		(pts
+			(xy 81.28 101.6) (xy 83.82 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd7b10de-c288-4027-a7b3-b0d92122e6b7")
+	)
+	(wire
+		(pts
+			(xy 111.76 22.86) (xy 114.3 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe81e20f-71ab-4aa6-8b53-ffc05bdc2bc5")
+	)
+	(wire
+		(pts
+			(xy 116.84 127) (xy 116.84 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fefd3f8d-ab3c-4192-8a77-1ea8f92d669a")
+	)
+	(wire
+		(pts
+			(xy 86.36 71.12) (xy 86.36 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff8f11ee-fd16-4ddd-a954-664405296eb7")
+	)
+	(wire
+		(pts
+			(xy 129.54 78.74) (xy 129.54 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc53aaa-6ab0-4c22-a000-668d8d6e0687")
+	)
+	(label "C8"
+		(at 276.86 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "036541a6-fa60-4655-b492-756b11077f23")
+	)
+	(label "0v"
+		(at 254 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "045af87e-6bc7-4f87-b096-738fa1d969af")
+	)
+	(label "R9"
+		(at 193.04 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "046f0740-e360-4cc9-873e-0abac8bfb2ac")
+	)
+	(label "R7"
+		(at 193.04 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "04a75cb0-b392-422e-94c0-bb738df7f4e4")
+	)
+	(label "C7"
+		(at 276.86 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05b2902e-44c6-4286-8b81-b49f7595f5a2")
+	)
+	(label "0v"
+		(at 205.74 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "071d5a59-fc97-4764-8927-7d026b0f5e3f")
+	)
+	(label "R3"
+		(at 193.04 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "07e956ae-725a-4a15-89c4-ef03558f87f0")
+	)
+	(label "R2"
+		(at 241.3 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "081104b3-5c28-4ba0-9179-195ca23aa771")
+	)
+	(label "C1"
+		(at 254 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0887c675-e8e6-4829-9423-93675d7656ca")
+	)
+	(label "C3"
+		(at 205.74 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c7dfe69-fba6-4c99-8b7a-a08977d3d335")
+	)
+	(label "C6"
+		(at 63.5 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0cc61f38-088d-4e49-8ff0-fc65727ba9de")
+	)
+	(label "R4"
+		(at 63.5 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0dfd65f5-ef1b-4cca-8e93-88267b99ab1a")
+	)
+	(label "C0"
+		(at 63.5 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "13ab19b2-24b2-42d2-b4bf-ad8d58ba5fb4")
+	)
+	(label "R6"
+		(at 193.04 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1a2c30a0-b951-43e3-ae21-fd2c8e96763e")
+	)
+	(label "R1"
+		(at 264.16 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1b68c4b0-b150-4c96-b3b6-7993ba932bae")
+	)
+	(label "R7"
+		(at 264.16 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1bb0287c-8cc2-4495-ab82-6f4b0ebe6785")
+	)
+	(label "C2"
+		(at 254 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1dac3a51-804c-458c-b82e-2d81cf0bae21")
+	)
+	(label "R7"
+		(at 241.3 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2454ad10-0adc-496d-b773-1243ef39ab1a")
+	)
+	(label "C4"
+		(at 205.74 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26cd7333-90e0-45f9-bfba-abcec051a881")
+	)
+	(label "R6"
+		(at 63.5 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "289ee530-c776-4331-88fa-3e42c746c42a")
+	)
+	(label "R8"
+		(at 264.16 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "28a19923-f4b5-4a42-8175-677bae7f8769")
+	)
+	(label "R7"
+		(at 63.5 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2b236a62-ccbc-41b2-9d4f-7868cfd320e3")
+	)
+	(label "C6"
+		(at 205.74 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2babfabb-3cc8-4028-a125-3c8167c52dac")
+	)
+	(label "C4"
+		(at 254 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f7e115f-9c19-44c1-8bc3-180c49a226c9")
+	)
+	(label "C7"
+		(at 205.74 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31a3853e-15c2-43a6-8867-6815d4c6b731")
+	)
+	(label "R1"
+		(at 193.04 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "323eb1c0-63be-483c-9de7-464a3fa9a832")
+	)
+	(label "KBRK"
+		(at 205.74 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b7e71f4-8738-45f2-81ac-1e306aa96042")
+	)
+	(label "C5"
+		(at 205.74 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e2f4908-6961-4d92-b15e-18c42172db70")
+	)
+	(label "C3"
+		(at 63.5 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "423c7486-a9ba-43c5-97a5-5b945a00ec27")
+	)
+	(label "C0"
+		(at 254 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44542eba-748e-4fc7-9d0e-271afa26b90f")
+	)
+	(label "R2"
+		(at 193.04 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "48df92c7-9b50-4f5f-9a95-9e86ddac2437")
+	)
+	(label "R6"
+		(at 264.16 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4cc46bbc-92af-4403-8f65-d4247be0eb1e")
+	)
+	(label "C3"
+		(at 276.86 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5371c527-be6e-422f-a959-4dc7a55680d3")
+	)
+	(label "C4"
+		(at 276.86 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5adceb28-169f-4008-b5cd-1c092cec5df7")
+	)
+	(label "KBRK"
+		(at 276.86 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6107e460-ace8-48c1-9d2f-6e5aa4ce4b8a")
+	)
+	(label "KBRK"
+		(at 254 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "665c3bde-b6dc-4bc5-86b0-c3f0de5b00a0")
+	)
+	(label "C5"
+		(at 63.5 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "671a51a7-9720-44d6-8c00-f69a5ff74414")
+	)
+	(label "0v"
+		(at 63.5 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "67d6fdf7-f445-4f18-95b8-5595aa6673a9")
+	)
+	(label "R4"
+		(at 241.3 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "68897ea2-7f0d-4928-bb02-0d66c3add225")
+	)
+	(label "R8"
+		(at 193.04 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6916bdb2-b3c6-4745-b5f0-c93a50da5121")
+	)
+	(label "C5"
+		(at 254 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d65b68a-b7b1-4ab1-a819-292f28dacc2c")
+	)
+	(label "R2"
+		(at 264.16 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6fd97a19-77b1-4258-a1f6-781477c3927e")
+	)
+	(label "C1"
+		(at 205.74 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "735ad599-4090-42b0-ba34-d97d7228e650")
+	)
+	(label "R3"
+		(at 241.3 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "78617f63-3674-4e2c-a63e-664b5180d9b1")
+	)
+	(label "C7"
+		(at 63.5 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b552f9c-fc42-4cbc-b7ce-d94973b8e18f")
+	)
+	(label "C2"
+		(at 63.5 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "80c997e0-3d42-4eae-9f97-0e6d8f7a2648")
+	)
+	(label "R8"
+		(at 63.5 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "81a23b30-a8ca-4c06-ba66-39ff41d78d2b")
+	)
+	(label "KBRK"
+		(at 63.5 190.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8570791f-6c25-433a-a385-1b1756987160")
+	)
+	(label "R4"
+		(at 264.16 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8e5f523a-59c0-4cd7-b4d6-83b32a46d8f0")
+	)
+	(label "R2"
+		(at 63.5 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "944f7df6-e82a-4462-9fc1-469b8cf2594f")
+	)
+	(label "C6"
+		(at 254 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "985f233a-c986-456d-b902-0c45286b30b8")
+	)
+	(label "R8"
+		(at 241.3 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "98fa7501-775b-4f45-8e4f-6b38d0a066d8")
+	)
+	(label "C6"
+		(at 276.86 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9af549fc-dc7d-43d7-8da7-4dbde6ac8afd")
+	)
+	(label "0v"
+		(at 276.86 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f6d8e69-e8d5-4f8f-8c97-86924c97d2fb")
+	)
+	(label "R5"
+		(at 241.3 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a25beb96-2058-4a9b-9dd4-e3dde6c820cf")
+	)
+	(label "R9"
+		(at 241.3 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a28e9462-09ac-4e41-9956-0df379638242")
+	)
+	(label "R0"
+		(at 63.5 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a29faec3-529f-43c4-a539-b59d7e99ac40")
+	)
+	(label "R3"
+		(at 63.5 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3c05eda-27d5-44af-b99e-5d6d231c5299")
+	)
+	(label "C5"
+		(at 276.86 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a85e99da-1ad0-4031-b06b-8d5af1fd9f80")
+	)
+	(label "R5"
+		(at 193.04 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a9bdc050-6cc3-4086-9297-6d0096160c58")
+	)
+	(label "C2"
+		(at 276.86 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab82ae67-f3ba-49d8-a0fe-b6c5a2cece6a")
+	)
+	(label "R6"
+		(at 241.3 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "abab0e70-284e-4ba3-b861-c51fed80c9e8")
+	)
+	(label "R1"
+		(at 241.3 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc9a71b4-20bb-4b73-ae3f-de5d2852bab1")
+	)
+	(label "C2"
+		(at 205.74 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd1c3279-e850-4087-adf5-6af56d3263b3")
+	)
+	(label "R9"
+		(at 63.5 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0efc240-c218-4529-8d2c-5747facf49e9")
+	)
+	(label "C8"
+		(at 254 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c15a1c30-f4ed-4666-9518-d63a5adc71c3")
+	)
+	(label "R0"
+		(at 193.04 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c42f5366-bc51-4d23-ae36-23af720782d6")
+	)
+	(label "C0"
+		(at 276.86 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cab1186a-06bd-4899-bdd5-75362abc69f1")
+	)
+	(label "R9"
+		(at 264.16 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd0c47b0-6c6a-4f41-9706-278f95c0125c")
+	)
+	(label "C0"
+		(at 205.74 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0ce4b2c-2714-4f1a-8869-d6435b4004ed")
+	)
+	(label "C3"
+		(at 254 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d31f6f63-102c-4f1a-89b3-a3a17608d679")
+	)
+	(label "R0"
+		(at 241.3 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d410233d-f67e-47a2-8a71-8eb2058835ca")
+	)
+	(label "R1"
+		(at 63.5 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d54194a9-c2eb-4b2e-8d65-6d143fb8255b")
+	)
+	(label "C1"
+		(at 63.5 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "db2d6832-b50f-4aa8-8908-956b5370d10e")
+	)
+	(label "C1"
+		(at 276.86 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc4d45f5-1d47-4542-9eab-bdf08d2eae5e")
+	)
+	(label "R4"
+		(at 193.04 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e4fb1469-cbda-4c47-a2f0-6ef60af7d6f9")
+	)
+	(label "R3"
+		(at 264.16 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7274391-09e3-4fae-8dd6-ea0c763ac2ac")
+	)
+	(label "C4"
+		(at 63.5 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eefa5c12-9b49-4ccd-972f-2c3e1b9a48dd")
+	)
+	(label "C8"
+		(at 63.5 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f0adc511-828e-4b77-a616-d136244c778b")
+	)
+	(label "C8"
+		(at 205.74 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbe6453b-4249-4c20-837d-069283dbabfa")
+	)
+	(label "R0"
+		(at 264.16 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fc35d082-bf38-4476-8d96-c16a725a5175")
+	)
+	(label "R5"
+		(at 264.16 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fd0a0235-6bd4-4ea1-888c-b3dddd79516d")
+	)
+	(label "C7"
+		(at 254 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fdf88451-598b-41e3-9ac5-6d6058b4a266")
+	)
+	(label "R5"
+		(at 63.5 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ff0479a9-83c5-4cf2-a4ba-3a207f36b2f9")
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 76.2 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00ae3555-a840-405d-aaea-9f3e8c6cb6d0")
+		(property "Reference" "SW9"
+			(at 76.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 76.2 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "["
+			(at 76.2 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6bc5ef36-32fe-4c81-9a48-49047cf01c00")
+		)
+		(pin "2"
+			(uuid "279675cd-4965-4cdb-b3cc-5b82973931d8")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 121.92 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "021ba1f3-27fc-4bec-9468-351df0202282")
+		(property "Reference" "SW37"
+			(at 121.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 121.92 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "A"
+			(at 121.92 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "978b234e-6656-4c24-9789-fd209d7c9e0b")
+		)
+		(pin "2"
+			(uuid "91fe0eaf-d5a2-44fa-8c47-00a3eac29a43")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 73.66 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "037f4696-f338-48da-a2ba-41e08a1558b9")
+		(property "Reference" "SW65"
+			(at 73.66 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 73.66 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 73.66 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "BREAK"
+			(at 73.66 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9775a486-03cb-4d78-b985-73a19a007109")
+		)
+		(pin "2"
+			(uuid "dd8c43a5-9a8e-48fc-b82e-5cb0a76ff084")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 139.7 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "061314f0-9475-4e97-bb4c-36a45681dc92")
+		(property "Reference" "SW44"
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 139.7 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 139.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "N"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3d5e742-99de-4456-a9b7-8a6a3f5c2727")
+		)
+		(pin "2"
+			(uuid "ee471772-8dca-47d0-b932-5e5d02c96848")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 139.7 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d329d68-8d21-49f2-ae9f-40601f83d6a9")
+		(property "Reference" "SW50"
+			(at 139.7 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 139.7 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "H"
+			(at 139.7 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "872d571f-56ec-4005-a3cd-b5f89f057dcb")
+		)
+		(pin "2"
+			(uuid "333813cc-73aa-4a12-a760-b55b5d6ee923")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 106.68 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13f3e634-a4a9-4b81-8a48-4afa3afba0b9")
+		(property "Reference" "SW30"
+			(at 106.68 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 106.68 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 106.68 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "$/4"
+			(at 106.68 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da8e0664-85fc-4032-ae90-dad18240f952")
+		)
+		(pin "2"
+			(uuid "45ff916d-2e84-4fa4-8a35-6666cb24ffdd")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 154.94 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "197cfd92-ad5c-44d3-b09f-0a63ead84159")
+		(property "Reference" "SW53"
+			(at 154.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 154.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 154.94 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "Y"
+			(at 154.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "646df0f9-72f6-4ebf-9b74-cc23bfb54934")
+		)
+		(pin "2"
+			(uuid "b04a4c32-e15a-41bd-8f42-9059e5ed6fd5")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 106.68 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19f05fad-3bfb-4889-b662-1f412d0deae4")
+		(property "Reference" "SW21"
+			(at 106.68 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 106.68 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 106.68 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "=/-"
+			(at 106.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99b649bf-da50-4c7d-a96d-0179530ab2d5")
+		)
+		(pin "2"
+			(uuid "6d564a8e-0ae4-4ceb-99be-0010728c6f36")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 76.2 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f73e584-af84-46f9-963a-8296e402d893")
+		(property "Reference" "SW7"
+			(at 76.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "]"
+			(at 76.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22f0f484-dcd7-441f-ae8f-098de49012cc")
+		)
+		(pin "2"
+			(uuid "1970c68c-9c85-4528-9922-2b9e3c5c0443")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 106.68 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "233cb8c4-0ddc-430b-af6c-44ea80a039ce")
+		(property "Reference" "SW29"
+			(at 106.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 106.68 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "%/5"
+			(at 106.68 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1976cf3d-6700-4389-8ea9-6bb7fdcddf7a")
+		)
+		(pin "2"
+			(uuid "6c844efe-974c-403f-908c-0d8a36183d0c")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 154.94 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "256ad91c-4bcb-440f-bfdd-69d1d17b2d98")
+		(property "Reference" "SW51"
+			(at 154.94 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 154.94 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 154.94 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "ESC"
+			(at 154.94 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4005c3ad-92c8-497b-a394-ec0398060c8e")
+		)
+		(pin "2"
+			(uuid "3f07a7e7-e5a5-4359-bd56-4bcb21f7b739")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 76.2 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2db35f73-15db-43d8-a61f-f7ccfcf25aab")
+		(property "Reference" "SW8"
+			(at 76.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 76.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "\\"
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9e3855c-216e-48bf-b492-e4d26f12e80e")
+		)
+		(pin "2"
+			(uuid "8fa35c03-5a3e-4392-94ea-d87f7a67a9e4")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x13_Odd_Even")
+		(at 198.12 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "2f6c888c-a945-47b1-b5e6-1131cc2a4d9d")
+		(property "Reference" "J1"
+			(at 199.39 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x13_Odd_Even"
+			(at 199.39 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x13_P2.54mm_Vertical"
+			(at 198.12 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c76de4a-40e8-430c-ae21-ef8fa4d91984")
+		)
+		(pin "10"
+			(uuid "8194dacc-16b6-467d-9e63-a33c3e8f3bee")
+		)
+		(pin "11"
+			(uuid "7bb3ef5a-be1b-432b-88e0-7700e69b3acb")
+		)
+		(pin "12"
+			(uuid "00f89d35-25b4-46ad-885a-045a810f2833")
+		)
+		(pin "13"
+			(uuid "0043fcf6-86a7-47a6-87c7-2bcc8d2c0e80")
+		)
+		(pin "14"
+			(uuid "f1845b1f-2fb4-4cb2-9489-5f58ff8b19eb")
+		)
+		(pin "15"
+			(uuid "ce1bd295-4973-440f-aab2-d9cec7907808")
+		)
+		(pin "16"
+			(uuid "66723e61-5b1d-42de-9289-b790fe07417f")
+		)
+		(pin "17"
+			(uuid "bb36a486-6193-4657-ae4c-0c2b1a10bf93")
+		)
+		(pin "18"
+			(uuid "36deb2b2-0a95-4603-939b-a9337bc7b581")
+		)
+		(pin "19"
+			(uuid "7b5b9ae1-a8b6-4d45-934c-98316a6856a1")
+		)
+		(pin "2"
+			(uuid "402a8179-6758-4b22-9a22-90c31bc350eb")
+		)
+		(pin "20"
+			(uuid "4d6a7c65-43b6-4ed6-b07f-ab507f82f420")
+		)
+		(pin "21"
+			(uuid "936980ae-fe1d-427c-8d48-ea326bd31a57")
+		)
+		(pin "22"
+			(uuid "34986c3f-33e5-414d-89e1-0ba6d34f15b3")
+		)
+		(pin "23"
+			(uuid "646e0f1b-b694-492c-8036-c4385c46c5c9")
+		)
+		(pin "24"
+			(uuid "dd5c21c6-9f50-4ed6-b81d-a6a96a808c20")
+		)
+		(pin "25"
+			(uuid "1bee025c-a05e-46aa-a683-4a0be946c48e")
+		)
+		(pin "26"
+			(uuid "b7cd4b53-444c-45eb-ac90-0a92290b8966")
+		)
+		(pin "3"
+			(uuid "32260a10-cf5a-4f41-8647-4824e515740e")
+		)
+		(pin "4"
+			(uuid "be71829c-125c-4118-afc1-c482f8719ff2")
+		)
+		(pin "5"
+			(uuid "ce18a7a7-4e99-46fe-96a8-1203f788bbf9")
+		)
+		(pin "6"
+			(uuid "3609fec5-3999-47f7-8cab-3816d7cd729a")
+		)
+		(pin "7"
+			(uuid "2aca1eec-78cc-41ad-ad04-54171aa6c58e")
+		)
+		(pin "8"
+			(uuid "a3baaad9-1ceb-435c-a9fc-ba988d093b9b")
+		)
+		(pin "9"
+			(uuid "ac6aae4e-c101-46ff-9fc0-c7aeaaf6f45f")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 266.7 45.085 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "2f7a6fbc-7a9c-4269-8552-b341d65b5ebc")
+		(property "Reference" "H6"
+			(at 269.24 43.8149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 269.24 46.3549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965"
+			(at 266.7 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 106.68 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30cadef2-4275-4457-84e5-b9a483bcfe1b")
+		(property "Reference" "SW22"
+			(at 106.68 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 106.68 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 106.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "</,"
+			(at 106.68 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15845c11-97de-4bb0-accb-deddcb95b2bf")
+		)
+		(pin "2"
+			(uuid "986c6ba1-1a67-4637-aa02-1ee506696e07")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 91.44 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36c00084-7203-470c-b18c-4aab3c39681d")
+		(property "Reference" "SW16"
+			(at 91.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "COPY"
+			(at 91.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f9a314c7-ce58-4692-8f4f-5b23a46e1af2")
+		)
+		(pin "2"
+			(uuid "9b6dfe51-85d8-46fe-ba95-846173f822d4")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 154.94 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36e5a69f-558f-4508-9094-c7d4ef337c6b")
+		(property "Reference" "SW52"
+			(at 154.94 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 154.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 154.94 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "Z"
+			(at 154.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9784d1ac-caa0-4acb-90e5-e9a0037a96a7")
+		)
+		(pin "2"
+			(uuid "3bf521f2-35cd-4933-af5d-90314548918f")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 106.68 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d2a664f-76a2-491a-a4ac-4787eedaad58")
+		(property "Reference" "SW27"
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 106.68 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "'/7"
+			(at 106.68 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee57f8f0-3f39-47df-a10f-534600ecbecf")
+		)
+		(pin "2"
+			(uuid "d90233a0-c617-4c0e-8cd4-bf1febb8382a")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 139.7 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "401220b3-9089-47e3-842e-b3667c92c2a1")
+		(property "Reference" "SW47"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "K"
+			(at 139.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "309e4a31-468d-47b6-b694-f9ae49832fe3")
+		)
+		(pin "2"
+			(uuid "2df4bbbc-7779-41b1-9051-91f8311f9eb5")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 106.68 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40ab80d2-1730-44e3-8fd2-6a0e8e4aea49")
+		(property "Reference" "SW28"
+			(at 106.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 106.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "&/6"
+			(at 106.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22591cd6-3389-46d0-8166-7a784b68ec5c")
+		)
+		(pin "2"
+			(uuid "dbc12e4c-c7e3-44a1-98eb-77f2a95345b9")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 266.7 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "4218b541-51d4-49cd-9e90-23677d0fb6dc")
+		(property "Reference" "H5"
+			(at 269.24 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 269.24 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965"
+			(at 266.7 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x13_Odd_Even")
+		(at 269.24 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "427f1c2e-400a-45d5-bc00-018c69a219ba")
+		(property "Reference" "J3"
+			(at 270.51 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x13_Odd_Even"
+			(at 270.51 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x13_P2.54mm_Vertical"
+			(at 269.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26a33702-0db0-478e-9d7b-7065590a1b51")
+		)
+		(pin "10"
+			(uuid "7490c8e0-347c-4bc5-9a4d-cc1f0521b398")
+		)
+		(pin "11"
+			(uuid "cc21e525-66fd-40b5-8497-5a006b69224d")
+		)
+		(pin "12"
+			(uuid "2b5be81f-17d5-46ef-8796-f009b0f81219")
+		)
+		(pin "13"
+			(uuid "b2a9c5e4-7917-4e64-a1b3-d02471b7cdc0")
+		)
+		(pin "14"
+			(uuid "2e077619-5691-496f-a071-79f71900f8b1")
+		)
+		(pin "15"
+			(uuid "59c5dd1b-63ef-4e81-9bc9-03f3624107b8")
+		)
+		(pin "16"
+			(uuid "88fc2149-66e0-4a65-8a9b-798584a05e75")
+		)
+		(pin "17"
+			(uuid "f50db8f7-2d8b-4e1a-a58d-5f32e8e952bc")
+		)
+		(pin "18"
+			(uuid "36a58c19-beaa-4449-a066-40dccd83e4ba")
+		)
+		(pin "19"
+			(uuid "6bc1f360-06c1-4887-a246-c4ddbe61618e")
+		)
+		(pin "2"
+			(uuid "5dab1680-c193-4401-b20e-8086d36382d8")
+		)
+		(pin "20"
+			(uuid "9be90922-bf77-4d03-a4a2-3a06d049b4de")
+		)
+		(pin "21"
+			(uuid "e842afca-c48f-4297-834e-445d5e540150")
+		)
+		(pin "22"
+			(uuid "2cf457a5-45f2-4980-b50e-871621b688e4")
+		)
+		(pin "23"
+			(uuid "ec9fd263-5c4f-4dce-a9ee-1f56db60a9f7")
+		)
+		(pin "24"
+			(uuid "0c9f7f36-5459-4622-95e7-fb390924af01")
+		)
+		(pin "25"
+			(uuid "e6781250-ca68-489d-9a4e-8e33a1ec1343")
+		)
+		(pin "26"
+			(uuid "603a7be9-312e-46f2-9b2b-702f36c3f2f7")
+		)
+		(pin "3"
+			(uuid "1d6604f0-ebe4-47ff-a9db-f9f521f97392")
+		)
+		(pin "4"
+			(uuid "e21e493f-a9b9-49b9-bea5-efe2217fd463")
+		)
+		(pin "5"
+			(uuid "def726eb-495e-469a-8097-7ebedf0a0425")
+		)
+		(pin "6"
+			(uuid "0d569463-447a-46cb-9549-f8610db3365c")
+		)
+		(pin "7"
+			(uuid "a0634dac-b1f3-4599-b012-fa787480a2d8")
+		)
+		(pin "8"
+			(uuid "17841bdd-d01e-4f64-845b-82619bf6cf0b")
+		)
+		(pin "9"
+			(uuid "6bd47adf-9353-4be0-a08b-5baaf2cb1f54")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 121.92 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "525c5356-b131-4fe6-9304-afaef7642930")
+		(property "Reference" "SW34"
+			(at 121.92 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 121.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 121.92 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "D"
+			(at 121.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89aab463-4ec1-4189-bc76-1739799576b3")
+		)
+		(pin "2"
+			(uuid "8e92a2b0-1c90-4dc7-a30a-57394dbf8e0c")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 121.92 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "590d9d79-c276-47e5-af63-3f7c785b6f50")
+		(property "Reference" "SW32"
+			(at 121.92 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 121.92 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 121.92 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "F"
+			(at 121.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5fa93af4-91bb-48a9-b8c4-e25e777182d7")
+		)
+		(pin "2"
+			(uuid "e69bc803-5d76-43a4-a091-1bef4e5eef01")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 106.68 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61b8597e-3dd3-44c3-b924-e4cc1c23a341")
+		(property "Reference" "SW23"
+			(at 106.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 106.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 106.68 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "+/;"
+			(at 106.68 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a341372-e4c5-4fbb-a839-0633bd0531f9")
+		)
+		(pin "2"
+			(uuid "f611aa0f-825c-4833-be33-bf6239090188")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 76.2 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "636650e9-8915-4953-91eb-a623275b1035")
+		(property "Reference" "SW6"
+			(at 76.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 76.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "↑"
+			(at 76.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5a67892-1d91-405e-822a-287c15ab065d")
+		)
+		(pin "2"
+			(uuid "cb685ace-dfe9-494a-8328-d5edb5859a25")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 139.7 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67faf673-bb22-4759-b3dc-72a4ecf14a0e")
+		(property "Reference" "SW48"
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 139.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "J"
+			(at 139.7 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3bdfc9e0-9f99-4dd1-9518-32fe3ddaaa29")
+		)
+		(pin "2"
+			(uuid "d232d4c8-fa56-48b4-a23a-926e2c00c5f3")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 106.68 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "701f5571-50c3-4827-b485-f6f4ff991cae")
+		(property "Reference" "SW24"
+			(at 106.68 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 106.68 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "*/:"
+			(at 106.68 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a075d150-8b8b-478f-8a29-84979cfccbe2")
+		)
+		(pin "2"
+			(uuid "fcebcf3f-861e-4df1-87bc-4bfaac85fc13")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 139.7 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75761f6c-936c-4706-9afc-af96751d7dc8")
+		(property "Reference" "SW42"
+			(at 139.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 139.7 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 139.7 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "P"
+			(at 139.7 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03b4ca68-5969-4701-9d2e-f9602aae0d97")
+		)
+		(pin "2"
+			(uuid "1d358cae-3705-49a2-aea2-68455e6ede3a")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 121.92 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a402a32-dd42-4269-93a3-c25630e7edf0")
+		(property "Reference" "SW31"
+			(at 121.92 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 121.92 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 121.92 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "G"
+			(at 121.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3da62f2e-8a33-400f-94df-513db54bc877")
+		)
+		(pin "2"
+			(uuid "6d136880-0321-4315-8060-9a145d339f30")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 121.92 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ad94fdb-2219-4191-b7e1-3e7ab63e5112")
+		(property "Reference" "SW38"
+			(at 121.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 121.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 121.92 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "@"
+			(at 121.92 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6507a746-24c4-453a-825f-8af2799b9161")
+		)
+		(pin "2"
+			(uuid "4b228d6b-d581-41ce-9e47-7dd8444882c5")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 139.7 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c299ea9-f61c-4d42-a2e5-aaef0e9624a9")
+		(property "Reference" "SW46"
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 139.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "L"
+			(at 139.7 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a995198a-3ebd-4bd5-9a00-93b3d9cb779e")
+		)
+		(pin "2"
+			(uuid "d785b0f8-9f8c-4f3c-b50f-e529624c7c81")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 121.92 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f5b7079-3c79-418a-ada3-809f2f8edb44")
+		(property "Reference" "SW40"
+			(at 121.92 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 121.92 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 121.92 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" ">/."
+			(at 121.92 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cadf368d-6427-4dd0-9772-efb220ec87f6")
+		)
+		(pin "2"
+			(uuid "2e5e14dd-9673-43c5-8277-3a8342fe84dc")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x13_Odd_Even")
+		(at 246.38 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "81335734-4025-4bfd-9e10-100a8ff57235")
+		(property "Reference" "J2"
+			(at 247.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x13_Odd_Even"
+			(at 247.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x13_P2.54mm_Vertical"
+			(at 246.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bbc453f7-27a3-4430-808b-360b8a969c1d")
+		)
+		(pin "10"
+			(uuid "42ff14be-2003-47f9-85a8-91d1c85d2597")
+		)
+		(pin "11"
+			(uuid "8202b655-3b49-411d-b1cb-a5b5d706aea9")
+		)
+		(pin "12"
+			(uuid "13811b08-0b65-4212-9836-24285993a59a")
+		)
+		(pin "13"
+			(uuid "5626c7c1-9014-4e2c-a149-85239c39496d")
+		)
+		(pin "14"
+			(uuid "8c677704-eef9-4ba3-ada7-42058563651a")
+		)
+		(pin "15"
+			(uuid "0e9a1dc8-b567-450e-9720-e5f8dcc1b4cd")
+		)
+		(pin "16"
+			(uuid "bb7d717f-78d5-4c22-b98e-61beb8a82e4c")
+		)
+		(pin "17"
+			(uuid "b4fa058e-15bc-4001-9269-14bc94f0a600")
+		)
+		(pin "18"
+			(uuid "653b394b-6cc7-4002-ac70-a95340b018d7")
+		)
+		(pin "19"
+			(uuid "75abe714-9ef2-45ed-b99b-c34b90ea82db")
+		)
+		(pin "2"
+			(uuid "69d67439-15ab-49c5-9c54-4d851eb7dbfc")
+		)
+		(pin "20"
+			(uuid "3bcb45a0-e692-462c-8eba-a0027b68cdc6")
+		)
+		(pin "21"
+			(uuid "e2de3950-436e-4204-b7fe-9d1393783d86")
+		)
+		(pin "22"
+			(uuid "f0f46259-6c06-4d29-8ad0-d5736cb0d6c1")
+		)
+		(pin "23"
+			(uuid "51997155-de8d-4bc6-857e-3ef789899be2")
+		)
+		(pin "24"
+			(uuid "e0bd6e1d-20ca-4cb9-bc47-e6439c738b4b")
+		)
+		(pin "25"
+			(uuid "6ca128fe-976e-4f97-8989-8de8128274a8")
+		)
+		(pin "26"
+			(uuid "58fcf43b-8d5c-48b5-886c-65a594932a36")
+		)
+		(pin "3"
+			(uuid "9436dece-e1a2-4fc6-89b4-beeff57a20ea")
+		)
+		(pin "4"
+			(uuid "cd8d190c-7df2-4eb6-8ec6-fbd4ca0e6365")
+		)
+		(pin "5"
+			(uuid "de0fce58-8234-413c-be76-e7db702d7071")
+		)
+		(pin "6"
+			(uuid "60971415-f159-43b7-b297-a2aeb1459823")
+		)
+		(pin "7"
+			(uuid "4b8f9427-eae5-482f-ab21-e4e79e1b1456")
+		)
+		(pin "8"
+			(uuid "e362dcd1-f340-400c-b55b-f3b829c2fcd0")
+		)
+		(pin "9"
+			(uuid "3896db23-08b8-45a1-83ab-890691098f5e")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 91.44 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "845a4e81-8aff-4e07-9e53-8033cda32a73")
+		(property "Reference" "SW14"
+			(at 91.44 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 91.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 91.44 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "0"
+			(at 91.44 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb60d0df-d6a8-48bc-a7db-8c155945f26e")
+		)
+		(pin "2"
+			(uuid "57f7e213-e2da-4cde-adb4-71b36786a29f")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 121.92 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84f4fba8-109a-4cc6-822d-f80fc14e5946")
+		(property "Reference" "SW33"
+			(at 121.92 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 121.92 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 121.92 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "E"
+			(at 121.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21e10cc1-1481-40c8-91a1-4328a80e673f")
+		)
+		(pin "2"
+			(uuid "526d6105-1314-4712-b9c1-e827ada9f48e")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 139.7 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88fa2845-acdd-44ee-814c-e5e92b0c4fa7")
+		(property "Reference" "SW43"
+			(at 139.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 139.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "O"
+			(at 139.7 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e40d8ee9-1baa-43f7-a778-6a3147a6eabe")
+		)
+		(pin "2"
+			(uuid "3b85f483-6f5f-465f-9bbe-ec499b4ac0f9")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 154.94 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89483101-c354-49d1-94d2-9a9cca6c4d6f")
+		(property "Reference" "SW59"
+			(at 154.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 154.94 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 154.94 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "S"
+			(at 154.94 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c587b74-9777-4500-a2e3-9320a0911b71")
+		)
+		(pin "2"
+			(uuid "a54d32f7-8952-487a-a84c-98f87ac2b070")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 266.7 16.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "911cfb59-2e38-43e7-8970-959c429a4823")
+		(property "Reference" "H1"
+			(at 269.24 15.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 269.24 17.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965"
+			(at 266.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 91.44 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "977d5464-6a37-4fd2-89c1-abe56cf62bb6")
+		(property "Reference" "SW63"
+			(at 91.44 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 91.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 91.44 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "SHIFT"
+			(at 91.44 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4a998de-1480-433f-a826-49152112158c")
+		)
+		(pin "2"
+			(uuid "8751857d-3514-4c82-bb62-fbb6f04360e8")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 106.68 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9cc007f1-f9c6-4b54-8b81-306936774bd8")
+		(property "Reference" "SW26"
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 106.68 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "(/8"
+			(at 106.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06aa56e4-9944-49c1-a6fe-e96d7fafc774")
+		)
+		(pin "2"
+			(uuid "a494f881-d519-4948-ab36-4dfb4cd59d6d")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 91.44 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0eb372c-864b-467b-99c9-15740e0b3691")
+		(property "Reference" "SW12"
+			(at 91.44 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 91.44 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 91.44 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "\"/2"
+			(at 91.44 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1e0fe5d-c191-4025-9864-2f953155e192")
+		)
+		(pin "2"
+			(uuid "9827c338-108a-427f-a6dc-4c187224ed6a")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 154.94 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5db235c-ccb3-4053-a358-a220182e0c32")
+		(property "Reference" "SW60"
+			(at 154.94 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 154.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 154.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "R"
+			(at 154.94 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1262ee2-5645-459a-876b-320b0c463c00")
+		)
+		(pin "2"
+			(uuid "8eba8ab7-0c98-4e0f-a11b-523086614982")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 121.92 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a72e9112-07e8-4d53-84b1-5dd711e7da7a")
+		(property "Reference" "SW35"
+			(at 121.92 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 121.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 121.92 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "C"
+			(at 121.92 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5dca5bd5-d014-440d-ac15-a8f95b464342")
+		)
+		(pin "2"
+			(uuid "16d29337-bb0f-409f-ab3b-9a2d5529eaae")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 76.2 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac2614b9-401c-4a1c-9076-d228a46fb91d")
+		(property "Reference" "SW4"
+			(at 76.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 76.2 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "↔"
+			(at 76.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e4cc616-4eeb-415a-8e7a-b95390f43450")
+		)
+		(pin "2"
+			(uuid "7990e5b0-35a3-49c3-9d02-907f7473c125")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 106.68 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af23b590-4f9c-43f0-939c-8bcf18944315")
+		(property "Reference" "SW25"
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 106.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 106.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" ")/9"
+			(at 106.68 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c60e73a5-f1c2-4c7e-9677-21176ae9dfa6")
+		)
+		(pin "2"
+			(uuid "d093243a-7395-4757-85ca-0ed540dfa93e")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 266.7 33.655 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b0b29301-db04-4995-ba38-81682f04a6c7")
+		(property "Reference" "H4"
+			(at 269.24 32.3849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 269.24 34.9249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965"
+			(at 266.7 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 73.66 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1be329f-10f6-4f94-b78d-8885b2616d8c")
+		(property "Reference" "SW61"
+			(at 73.66 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 73.66 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 73.66 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "CTRL"
+			(at 73.66 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "275aec04-2247-45f4-816d-dbc247fc6b97")
+		)
+		(pin "2"
+			(uuid "f6e90213-9435-4751-aa0e-19f3bcce53c3")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 91.44 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1c3b10d-d336-4da4-a245-721534af886c")
+		(property "Reference" "SW11"
+			(at 91.44 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 91.44 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 91.44 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "#/3"
+			(at 91.44 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37def01b-bb27-44f6-a2fe-35a9b6475c11")
+		)
+		(pin "2"
+			(uuid "fb2c9c87-03fa-4c67-8159-09238e4f8ed8")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 266.7 22.225 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b52cf2b5-8cce-4339-b82e-73c3706539d2")
+		(property "Reference" "H2"
+			(at 269.24 20.9549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 269.24 23.4949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965"
+			(at 266.7 22.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 22.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 22.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 91.44 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6435efd-be59-4bae-ac0b-803ca48b47cf")
+		(property "Reference" "SW17"
+			(at 91.44 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 91.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "RETURN"
+			(at 91.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3812a172-54d1-47f4-bbba-f902498709a9")
+		)
+		(pin "2"
+			(uuid "94498175-be0d-48a3-b832-88a3f9888e0e")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 154.94 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b78177eb-8a94-4eee-8df7-26e0928f1f60")
+		(property "Reference" "SW54"
+			(at 154.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 154.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 154.94 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "X"
+			(at 154.94 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6063472c-80a5-4283-8c8f-e9e9192e80b1")
+		)
+		(pin "2"
+			(uuid "29cb0e47-238c-43b5-aa9f-0dae9b68f915")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 154.94 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb4cbdf1-b01b-4636-a192-721ea54f52ff")
+		(property "Reference" "SW55"
+			(at 154.94 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 154.94 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 154.94 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "W"
+			(at 154.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee869b08-7345-4e0c-9257-aafa969a1dd7")
+		)
+		(pin "2"
+			(uuid "b47cf94b-20dd-443b-9734-6a20a3c3e8f3")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 266.7 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "c193a4f5-4110-4474-b163-d59937b30781")
+		(property "Reference" "H3"
+			(at 269.24 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 269.24 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965"
+			(at 266.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 121.92 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5f60986-c337-42a9-bcd1-3dca7932a6b7")
+		(property "Reference" "SW39"
+			(at 121.92 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 121.92 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 121.92 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "?//"
+			(at 121.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ded5b665-50cf-4875-b030-71a5ef6051ab")
+		)
+		(pin "2"
+			(uuid "7d2cc31b-c801-463c-84dc-7e208dc61369")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 154.94 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c673f9e7-4915-4ff2-8096-160656cd134b")
+		(property "Reference" "SW58"
+			(at 154.94 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 154.94 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 154.94 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "T"
+			(at 154.94 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1249398-ec85-4d86-94e3-5516ef06eb28")
+		)
+		(pin "2"
+			(uuid "6c2d8c61-a58e-41f9-82cb-7f3ae4c7558c")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 154.94 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9961c9c-d6e8-47ce-86c0-7ce2bf7be858")
+		(property "Reference" "SW56"
+			(at 154.94 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 154.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 154.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "V"
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a083da03-7ba2-4d99-812f-cfc207dec18f")
+		)
+		(pin "2"
+			(uuid "9893ded9-5893-4130-9255-ce08fb970bb2")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 154.94 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1859db5-a06b-4b5d-8fb8-b7dc0fbc6b4b")
+		(property "Reference" "SW57"
+			(at 154.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 154.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 154.94 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "U"
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "abf0c8a8-d417-42b6-b8f6-91a53ece57a0")
+		)
+		(pin "2"
+			(uuid "d3b249d6-b183-4e99-a4b7-e3c7cb6fec2c")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 76.2 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d57cae56-eb59-4271-aa43-7331bfbf9bbe")
+		(property "Reference" "SW62"
+			(at 76.2 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 76.2 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 76.2 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "SHIFT"
+			(at 76.2 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d057fa6-d82f-4470-bcc1-cd0db38227f8")
+		)
+		(pin "2"
+			(uuid "f80d32e7-8d1a-4741-83cc-9260b98db5ac")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 139.7 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d634bba7-246e-40ad-ab98-6d51dfbe15ba")
+		(property "Reference" "SW41"
+			(at 139.7 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 139.7 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 139.7 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "Q"
+			(at 139.7 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "572ec865-ec5b-47c5-88c8-5995109f6e55")
+		)
+		(pin "2"
+			(uuid "b8bf67f3-37ea-419d-b247-027731ae87a5")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 76.2 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d708118b-de81-4496-b025-686160d92d18")
+		(property "Reference" "SW10"
+			(at 76.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 76.2 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_6.25u_PCB"
+			(at 76.2 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "SPACE"
+			(at 76.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "deecf021-bc6b-4893-a1f8-3553a222f288")
+		)
+		(pin "2"
+			(uuid "3632ad26-7680-43e1-907c-ad0b36f2b20c")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 139.7 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d94ea40b-eb10-42bc-b166-f8c38e8422da")
+		(property "Reference" "SW45"
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 139.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "M"
+			(at 139.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "642ede2d-f5ce-4a7b-82e8-9048e921dfab")
+		)
+		(pin "2"
+			(uuid "ce29271d-280b-4e3c-b816-ff01a5799f4b")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 121.92 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "daa263c5-2f78-492f-b4f7-46a4f0f3fefa")
+		(property "Reference" "SW36"
+			(at 121.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 121.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 121.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "B"
+			(at 121.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d356fde4-f360-4a45-89c2-8cd56b0e3bcc")
+		)
+		(pin "2"
+			(uuid "f7a7d85b-709b-47ef-a5a4-ec82f85a5059")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 73.66 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2eff9cc-cade-4983-b7a4-be9b76f2de55")
+		(property "Reference" "SW64"
+			(at 74.295 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 74.295 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 73.66 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "REPEAT"
+			(at 73.66 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79217619-b254-4f6f-9d32-fcd15b6163aa")
+		)
+		(pin "2"
+			(uuid "f6e6a63e-473c-405d-ad86-f336ce3ef82a")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 139.7 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb2a725b-f677-4460-a713-ffaf6d8647ac")
+		(property "Reference" "SW49"
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 139.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 139.7 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "I"
+			(at 139.7 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "096d2315-a1a1-48bf-951a-c605e5d5a85f")
+		)
+		(pin "2"
+			(uuid "e7337562-0ef5-4c2a-855b-ac38777053cc")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 91.44 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0f2dd64-9213-4bff-8165-548753b6adbb")
+		(property "Reference" "SW13"
+			(at 91.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 91.44 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "!/1"
+			(at 91.44 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "724a9506-cab2-4017-abc7-b617904d0b32")
+		)
+		(pin "2"
+			(uuid "717e5343-8f43-4819-89dc-17c388f61142")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 76.2 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f417ce95-95c1-4b8e-b4f7-48b0ab28b753")
+		(property "Reference" "SW5"
+			(at 76.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 76.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "LOCK"
+			(at 76.2 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b68a0bb-1f86-470e-a943-65ccb21ff31a")
+		)
+		(pin "2"
+			(uuid "8218a473-a191-4b06-8f75-d7f806600bf7")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 76.2 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f76ca30e-767b-4103-bf15-4b62c6c0f0da")
+		(property "Reference" "SW3"
+			(at 76.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 76.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 76.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "↕"
+			(at 76.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e1df6c4-824c-465d-b91f-de6acaceabdc")
+		)
+		(pin "2"
+			(uuid "a2082005-fdab-4421-8579-31aa7daab5b9")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 91.44 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffc035ad-8d66-4978-b5a7-4bdc169f35b9")
+		(property "Reference" "SW15"
+			(at 91.44 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 91.44 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 91.44 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Key" "DELETE"
+			(at 91.44 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "426571ef-2a38-4687-8526-a96242552933")
+		)
+		(pin "2"
+			(uuid "915237c3-140e-4765-bf9a-774f5a09c7f6")
+		)
+		(instances
+			(project ""
+				(path "/20a823da-908c-44ca-8762-5f349ba9a462"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
